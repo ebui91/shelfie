@@ -1,0 +1,84 @@
+body {
+  background-color: #111;
+  color:#f4f4f4;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#title {
+  text-align: center;
+}
+
+#localData {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#weatherBox {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#currentTime {
+  font-size: 1.5em;
+  font-family: 'Orbitron', sans-serif;
+  color: #63D1F4;
+}
+
+.col-md-2, .btn {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  box-shadow: 1px 1px 10px 2px white;
+}
+
+.btn-transparent {
+    background: transparent !important;
+    color: white !important;
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    border: 2px solid white !important;
+}
+
+.btn-transparent:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+
+.btn {
+  margin-top: 20px;
+}
+
+.col-md-2 h2 {
+  text-align: center;
+}
+
+.col-md-2 ul li {
+  text-align: center;
+}
+
+.glass {
+  background-color: rgba(0,0,0, 0.5) !important;
+}
+
+.col-md-2 {
+  min-height: 250px;
+}
+
+#icon1, #icon2, #icon3, #icon4, #icon5 {
+  font-size: 5em;
+  color: #f4f4f4;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+}
